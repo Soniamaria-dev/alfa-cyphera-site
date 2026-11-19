@@ -40,25 +40,25 @@ export const empresa = {
   },
   equipe: [
     {
-      nome: "Sônia Maria Andrade de Carvalho",
+      nome: "Sônia Andrade",
       cargo: "CEO (Chief Executive Officer) & Co-fundadora",
-      foto: "/images/Sonia.jpeg",
+      foto: "/images/Sônia.png",
       alt: "Foto de Sônia Maria Andrade de Carvalho",
       descricao: "Fundadora da Alfa Cyphera, começou desenvolvendo sistemas de segurança e decidiu ajudar as pessoas com seus programas."
     },
     {
-      nome: "Lorenna Victoria Oliveira Ramos",
+      nome: "Lorenna Oliveira",
       cargo: "CTO (Chief Technology Officer) & Co-fundadora",
-      foto: "/images/Lorenna.jpg",
+      foto: "/images/Lorenna.png",
       alt: "Foto de Lorenna Victoria",
-      descricao: "Co-Fundadora da Alfa Cyphera, começou criando e organizando sistemas, até decidir ajudar Sônia em seu sonho de proteger os projetos de várias pessoas."
+      descricao: "Co-Fundadora da Alfa Cyphera, começou criando e sistemas, até decidir ajudar Sônia em seu sonho de proteger os projetos de várias pessoas."
     },
     {
-      nome: "Patrick Jane The Mentalist da Silva",
+      nome: "Patrick The Mentalist",
       cargo: " COO / VP de Operações",
-      foto: "/images/Patrick.jpg",
+      foto: "/images/Patrick.png",
       alt: "Foto de Patrick Jane",
-      descricao: "Responsável por garantir a gestão de todos os projetos, braço direito da CEO."
+      descricao: "Responsável por garantir a gestão de todos os projetos, braço direito da CEO. Auxilia a empresa com grande garra e dedicação."
     }
   ]
 };

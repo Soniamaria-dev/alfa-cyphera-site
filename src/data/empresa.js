@@ -35,7 +35,7 @@ export const empresa = {
       complemento: "",
       bairro: "Pinheiros",
       cidadeEstado: "São Paulo - SP",
-      cep: "05409-010"
+      cep: "05409-010."
     }
   },
   equipe: [

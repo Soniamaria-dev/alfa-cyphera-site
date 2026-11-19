@@ -1,49 +1,23 @@
-<html lang="pt-BR">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Nossa Equipe | Alfa Cyphera</title>
-	</head>
-	<body>
-		<header>
-			<strong>Alfa Cyphera</strong>
-			<nav>
-				<ul>
-					<li><a href="/">Início</a></li>
-					<li><a href="/sobre">Sobre</a></li>
-					<li><a href="/equipe">Equipe</a></li>
-					<li><a href="/contato">Contato</a></li>
-				</ul>
-			</nav>
-		</header>
+---
+import LayoutBase from '../layouts/LayoutBase.astro';
+import { empresa } from '../data/empresa.js';
+---
 
-		<main>
-			<section>
-				<h1>Nossa Equipe Técnica</h1>
-				<p>Conheça os profissionais que transformam requisitos de negócio em soluções de software seguras e escaláveis</p>
-				<ul>
-					<li>
-						<h2>Sônia Maria Andrade de Carvalho </h2>
-						<strong>CEO (Chief Executive Officer) & Co-fundadora.</strong>
-						<p>Fundadora da Alfa Cyphera, começou desenvolvendo sistemas de segurança e decidiu ajudar as pessoas com seus programas.</p>
-					</li>
-					<li>
-						<h2>Lorenna Victoria Oliveira Ramos</h2>
-						<strong>CTO (Chief Technology Officer) & Co-fundadora.</strong>
-						<p>Co-Fundadora da Alfa Cyphera, começou criando e organizando sistemas, até decidir ajudar Sônia em seu sonho de proteger os projetos de várias pessoas.</p>
-					</li>
-					<li>
-						<h2>Patrick Jane The Mentalist da Silva</h2>
-						<strong>COO / VP de Operações.</strong>
-						<p>Responsável por garantir a gestão de todos os projetos, braço direito da CEO.</p>
-					</li>
-				</ul>
-			</section>
-		</main>
-
-		<footer>
-			<p>&copy; 2026 Alfa Cyphera. Todos os direitos reservados.</p>
-		</footer>
-	</body>
-</html>
+<LayoutBase 
+	titulo="Nossa Equipe" 
+	descricao={`Conheça os profissionais por trás da ${empresa.nome}.`}
+>
+	<section>
+		<h1>Nossa Equipe Técnica</h1>
+		<p>Conheça os profissionais que transformam requisitos de negócio em soluções de software seguras e escaláveis</p>
+		<ul>
+			{empresa.equipe.map((membro) => (
+				<li>
+					<h2>{membro.nome}</h2>
+					<strong>{membro.cargo}</strong>
+					<p>{membro.descricao}</p>
+				</li>
+			))}
+		</ul>
+	</section>
+</LayoutBase>

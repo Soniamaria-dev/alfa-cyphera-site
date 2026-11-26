@@ -59,6 +59,13 @@ export const empresa = {
       foto: "/images/Patrick.png",
       alt: "Foto de Patrick Jane",
       descricao: "Responsável por garantir a gestão de todos os projetos, braço direito da CEO. Auxilia a empresa com grande garra e dedicação."
+    },
+    {
+      nome: "Daryl Dixon",
+      cargo: "Analista de Segurança da Informação",
+      foto: "/images/Daryl.png",
+      alt: "Foto de Daryl Dixon",
+      descricao: "Profissional responsável por garantir a segurança, a confidencialidade e a integridade das informações da empresa e de seus clientes."
     }
   ]
 };

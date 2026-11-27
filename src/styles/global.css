@@ -1,15 +1,16 @@
 /* src/styles/global.css */
 :root {
   /* Paleta de Cores baseada no Logo */
-  --cor-primaria: #FC019F; /* Quase rosa */
+  --cor-primaria: #FC019F; 
   --cor-primaria-botao: #8940cc;
   --cor-primaria-footer: #e9b5f3;
   --cor-secundaria: #fa31b0;
   --cor-secundaria-footer: #e997cb;
   --cor-destaque: #480191;
   --cor-destaque-footer: #dac3f1; 
-  --cor-fundo: #f8ecff;
-  --cor-fundo-alt: #f8ecff;
+  --cor-fundo: #f0d4ff;
+  --cor-fundo-alt: #f8ebff;
+  --cor-fundo-cartao: #f075c1;
   --cor-texto: #9534d1;
   --cor-texto-secundario: #9534d1;
   --cor-texto-invertido: #ffffff;
@@ -93,6 +94,9 @@ a:hover {
 
 .secao {
   padding: var(--espacamento-secao) 0;
+  background-color: var(--cor-fundo-alt);
+  padding-top: 1rem;
+  margin-top: 0;
 }
 
 .secao-alt {

@@ -8,8 +8,20 @@ import { empresa } from '../data/empresa.js';
 	titulo="Fale Conosco" 
 	descricao={`Entre em contato com a ${empresa.nome}.`}
 >
+
 	<section class="secao">
-		<div class="container">
+
+	<div class="grid-contato">
+    
+</div>
+
+		<div class="container"> 
+		<img
+        	src={empresa.fachada.foto}
+       		alt="Fachada da empresa"
+        	width="450"
+        	style="width: 100%; object-fit: cover; display: block; border: 2px solid #d2a6e9; border-radius: 10px; margin-bottom: 1.5rem;"
+    	/>
 			<div class="cabecalho-secao">
 				<h1>Fale Conosco</h1>
 				<p>Deseja construir uma solução de software sob medida para o seu negócio? Entre em contato com a {empresa.nome}!</p>

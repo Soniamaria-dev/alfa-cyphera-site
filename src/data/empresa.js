@@ -67,5 +67,8 @@ export const empresa = {
       alt: "Foto de Daryl Dixon",
       descricao: "Profissional responsável por garantir a segurança, a confidencialidade e a integridade das informações da empresa e de seus clientes."
     }
-  ]
+  ],
+  fachada: {
+    foto: "/images/AlfaCyphera.jpeg"
+  }
 };
